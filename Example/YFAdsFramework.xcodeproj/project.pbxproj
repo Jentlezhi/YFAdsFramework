@@ -28,6 +28,7 @@
 		8C905D642BF209A600EEE0EA /* YYFNativeRenderVideoDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C905D5E2BF209A600EEE0EA /* YYFNativeRenderVideoDemoView.m */; };
 		8C905D652BF209A600EEE0EA /* YYFNativeRenderNormalDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C905D602BF209A600EEE0EA /* YYFNativeRenderNormalDemoView.m */; };
 		8C905D662BF209A600EEE0EA /* YFMulNativeExpressConentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C905D612BF209A600EEE0EA /* YFMulNativeExpressConentViewController.m */; };
+		8CF2064D2BF212B3001AF390 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF2064C2BF212B3001AF390 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		8C905D5F2BF209A600EEE0EA /* YFFeedExpressListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFFeedExpressListViewController.h; sourceTree = "<group>"; };
 		8C905D602BF209A600EEE0EA /* YYFNativeRenderNormalDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFNativeRenderNormalDemoView.m; sourceTree = "<group>"; };
 		8C905D612BF209A600EEE0EA /* YFMulNativeExpressConentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFMulNativeExpressConentViewController.m; sourceTree = "<group>"; };
+		8CF2064C2BF212B3001AF390 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C259668350671C9FE1EC62F4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C7E62E9A0C62071C59177E95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,6 +150,7 @@
 				6003F5A5195388D20070C39A /* YFViewController.h */,
 				6003F5A6195388D20070C39A /* YFViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				8CF2064C2BF212B3001AF390 /* Main.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -339,6 +342,7 @@
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8CF2064D2BF212B3001AF390 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,9 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = UIColor.whiteColor;
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleDarkContent];
+
 }
 - (void)dealloc {
     NSLog(@"%@ 释放了",NSStringFromClass([self class]));
 }
-
 @end

@@ -41,7 +41,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"元坊SDK Demo";
     // 设置导航栏的标题颜色，字体
-    NSDictionary* textAttrs = @{NSForegroundColorAttributeName:
+    NSDictionary *textAttrs = @{NSForegroundColorAttributeName:
                                         [UIColor blackColor],
                                     NSFontAttributeName:
                                         [UIFont fontWithName:@"Helvetica-Bold"size:17.0],

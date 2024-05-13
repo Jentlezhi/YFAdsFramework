@@ -6,8 +6,8 @@
 //  Copyright (c) 2024 jt.zhi. All rights reserved.
 //
 
-@import UIKit;
+#import "YFBaseViewController.h"
 
-@interface YFViewController : UIViewController
+@interface YFViewController : YFBaseViewController
 
 @end
