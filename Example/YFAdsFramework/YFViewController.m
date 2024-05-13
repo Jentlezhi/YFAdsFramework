@@ -40,6 +40,22 @@
 - (void)configs {
     self.view.backgroundColor = [UIColor whiteColor];
     self.title = @"元坊SDK Demo";
+    // 设置导航栏的标题颜色，字体
+    NSDictionary* textAttrs = @{NSForegroundColorAttributeName:
+                                        [UIColor blackColor],
+                                    NSFontAttributeName:
+                                        [UIFont fontWithName:@"Helvetica-Bold"size:17.0],
+                                    };
+    if (@available(iOS 13.0, *)) {
+        UINavigationBarAppearance *barApp = [[UINavigationBarAppearance alloc] init];
+        [barApp configureWithOpaqueBackground];
+        barApp.titleTextAttributes = textAttrs;
+        barApp.backgroundColor = [UIColor whiteColor];
+        self.navigationController.navigationBar.standardAppearance = barApp;
+        self.navigationController.navigationBar.scrollEdgeAppearance = barApp;
+    } else {
+        [self.navigationController.navigationBar setTitleTextAttributes:textAttrs];
+    }
 }
 - (void)setupTable {
     [self.view addSubview:self.splashTextField];
@@ -132,6 +148,7 @@
     }
     YFMulNativeExpressConentViewController *nativeVC = [YFMulNativeExpressConentViewController new];
     nativeVC.posId = self.nativeRenderTextField.text;
+    nativeVC.title = @"原生渲染";
     [self.navigationController pushViewController:nativeVC animated:YES];
 }
 #pragma mark - YFSplashDelegate
@@ -150,4 +167,5 @@
 }
 
 @end
+
 

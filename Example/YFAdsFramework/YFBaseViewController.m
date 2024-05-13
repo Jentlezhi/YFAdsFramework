@@ -19,7 +19,7 @@
     self.view.backgroundColor = UIColor.whiteColor;
 }
 - (void)dealloc {
-    YFLog(@"%@ 释放了",NSStringFromClass([self class]));
+    NSLog(@"%@ 释放了",NSStringFromClass([self class]));
 }
 
 @end
