@@ -29,28 +29,28 @@ PODS:
   - SDWebImage (5.19.2):
     - SDWebImage/Core (= 5.19.2)
   - SDWebImage/Core (5.19.2)
-  - YFAdsFramework (1.7.0):
+  - YFAdsFramework (1.7.1):
     - AFNetworking
-    - YFAdsFramework/Core (= 1.7.0)
-    - YFAdsFramework/YFBDSDK (= 1.7.0)
-    - YFAdsFramework/YFCSJSDK (= 1.7.0)
-    - YFAdsFramework/YFKSSDK (= 1.7.0)
-    - YFAdsFramework/YFYLHSDK (= 1.7.0)
-  - YFAdsFramework/Core (1.7.0):
+    - YFAdsFramework/Core (= 1.7.1)
+    - YFAdsFramework/YFBDSDK (= 1.7.1)
+    - YFAdsFramework/YFCSJSDK (= 1.7.1)
+    - YFAdsFramework/YFKSSDK (= 1.7.1)
+    - YFAdsFramework/YFYLHSDK (= 1.7.1)
+  - YFAdsFramework/Core (1.7.1):
     - AFNetworking
-  - YFAdsFramework/YFBDSDK (1.7.0):
+  - YFAdsFramework/YFBDSDK (1.7.1):
     - AFNetworking
     - BaiduMobAdSDK (= 5.34)
     - YFAdsFramework/Core
-  - YFAdsFramework/YFCSJSDK (1.7.0):
+  - YFAdsFramework/YFCSJSDK (1.7.1):
     - Ads-CN (= 5.9.1.6)
     - AFNetworking
     - GDTMobSDK (= 4.14.76)
-  - YFAdsFramework/YFKSSDK (1.7.0):
+  - YFAdsFramework/YFKSSDK (1.7.1):
     - AFNetworking
     - KSAdSDK (= 3.3.61)
     - YFAdsFramework/Core
-  - YFAdsFramework/YFYLHSDK (1.7.0):
+  - YFAdsFramework/YFYLHSDK (1.7.1):
     - AFNetworking
     - GDTMobSDK (= 4.14.76)
     - YFAdsFramework/Core
@@ -85,7 +85,7 @@ SPEC CHECKSUMS:
   LookinServer: 1b2b61c6402ae29fa22182d48f5cd067b4e99e80
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: dfe95b2466a9823cf9f0c6d01217c06550d7b29a
-  YFAdsFramework: 95e7bf48a6ae9693ea34c79f1b8c6f82dd637a11
+  YFAdsFramework: b22d06e58d8ad283f4e79ab06bb4cb0e07d48d03
 
 PODFILE CHECKSUM: 18ec7ac463829b76a9954221ea0146263fadb6b5
 
