@@ -47,6 +47,8 @@ NS_ASSUME_NONNULL_BEGIN
             message:(NSString *)msg
               error:(nullable NSError *)error
            otherMsg:(nullable NSString *)otherMsg;
++ (void)logNetworkWithURL:(NSString *)url
+                      par:(NSDictionary *)par;
 
 @end
 

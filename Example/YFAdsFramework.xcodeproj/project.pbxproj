@@ -144,7 +144,6 @@
 		6003F593195388D20070C39A /* Example for YFAdsFramework */ = {
 			isa = PBXGroup;
 			children = (
-				8C905D552BF209A600EEE0EA /* Demo */,
 				8C905D512BF2099000EEE0EA /* Base */,
 				8C905D502BF2096B00EEE0EA /* AppDelegate */,
 				6003F5A5195388D20070C39A /* YFViewController.h */,
@@ -210,6 +209,7 @@
 		8C905D512BF2099000EEE0EA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				8C905D552BF209A600EEE0EA /* Demo */,
 				8C905D522BF2099B00EEE0EA /* YFBaseViewController.h */,
 				8C905D532BF2099B00EEE0EA /* YFBaseViewController.m */,
 			);

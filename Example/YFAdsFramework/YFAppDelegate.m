@@ -8,6 +8,7 @@
 
 #import "YFAppDelegate.h"
 #import "YFViewController.h"
+#import <YFAdsSDK/YFAdsSDK.h>
 
 @implementation YFAppDelegate
 
@@ -16,6 +17,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:YFViewController.new];
     self.window.rootViewController = nav;
+    ///初始化SDK
+    [YFAdsManager initSDKWithAppId:@"431479" apikey:@"7caj76pdv6em6" appName:@"test" bundleId:@"com.sina.tianqitong"];
     [self.window makeKeyAndVisible];
     return YES;
 }
