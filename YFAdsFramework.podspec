@@ -7,6 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Jentle' => 'juntaozhi@163.com' }
   s.source           = { :git => 'https://github.com/Jentlezhi/YFAdsFramework.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
+  s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   #公共
   s.subspec 'Core' do |ss|
       ss.vendored_frameworks = 'YFAdsFramework/YFAdsSDK.xcframework'
