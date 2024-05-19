@@ -38,11 +38,11 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)adsDidExposuredSuccess:(YFSplashManager *)manager;
 /**
- 广告曝光失败(仅穿山甲有此回调)
+ 广告曝光失败(仅穿山甲和优量汇有此回调)
  */
 - (void)adsDidExposuredFail:(YFSplashManager *)manager;
 /**
- 跳过按钮被点击(仅快手有此回调)
+ 跳过按钮被点击
  */
 - (void)splashSkipButtonDidClicked:(YFSplashManager *)manager;
 /**
