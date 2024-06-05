@@ -20,6 +20,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) BOOL shouldShowLogo;
 /// 广告背景图
 @property(nonatomic, strong, nonnull) UIImage *backgroundImage;
+/// 广告背景图mode(默认：UIViewContentModeScaleAspectFill)
+@property(nonatomic, assign) UIViewContentMode backgroundImageContentMode;
 /// logo尺寸
 @property(nonatomic, assign) CGSize logoSize;
 /// logo图片
@@ -28,6 +30,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign) NSTimeInterval timeOut;
 /// 显示类型
 @property(nonatomic, assign, readonly) YFAdsShowType showType;
+/// window
+@property(nonatomic, weak, nullable) UIWindow *window;
 
 @end
 

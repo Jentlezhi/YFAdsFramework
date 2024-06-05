@@ -29,6 +29,10 @@ NS_ASSUME_NONNULL_BEGIN
  显示广告
  */
 - (void)showSplash;
+/**
+ 移除开屏广告（默认会自动移除，异常时可以自行调该方法手动移除）
+ */
+- (void)removeSplash;
 
 @end
 
