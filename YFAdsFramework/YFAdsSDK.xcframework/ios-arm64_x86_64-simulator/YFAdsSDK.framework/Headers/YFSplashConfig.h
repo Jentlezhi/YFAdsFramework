@@ -32,6 +32,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, assign, readonly) YFAdsShowType showType;
 /// window
 @property(nonatomic, weak, nullable) UIWindow *window;
+/// 开始加载时是否显示背景图，默认NO
+@property(nonatomic, assign) BOOL showBackgroundImageBeforeShow;
 
 @end
 

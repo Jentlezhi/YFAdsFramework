@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/YFSplashConfig.h</key>
 		<data>
-		LcL+j+TpiZQHbd8BxHtBVVkg17g=
+		QDhZ5OMkhGc7F81gqpurdMAczvg=
 		</data>
 		<key>Headers/YFSplashDelegate.h</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Headers/YFSplashManager.h</key>
 		<data>
-		rr0h2Dboqvi2fhwoyIRAjSEawi8=
+		OUoV0TJYGLDZnzcua6DTyHlAGnA=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -166,11 +166,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LcL+j+TpiZQHbd8BxHtBVVkg17g=
+			QDhZ5OMkhGc7F81gqpurdMAczvg=
 			</data>
 			<key>hash2</key>
 			<data>
-			YxU4SzUla/adi5J+ZKULX2HNN0mCw1cKriZ5K1uGMIU=
+			TsTF2ztmIrt5bTHRUqZ7ts3TV96iZQMf9AlK9BNIF0k=
 			</data>
 		</dict>
 		<key>Headers/YFSplashDelegate.h</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rr0h2Dboqvi2fhwoyIRAjSEawi8=
+			OUoV0TJYGLDZnzcua6DTyHlAGnA=
 			</data>
 			<key>hash2</key>
 			<data>
-			p4G7cT7xWB+9d92VkfdJsm5a8Jmvfhwg6btqrq28Sp0=
+			srqvbvsiPH1PocT78WHtEkUvYS5BX6qog3ATVUQ2p1U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

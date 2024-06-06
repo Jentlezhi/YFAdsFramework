@@ -30,6 +30,17 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)showSplash;
 /**
+ 显示广告
+ */
+- (void)showSplashInWindow:(nonnull UIWindow *)window;
+/**
+ 显示广告
+ @param window               窗口
+ @param rootViewController   根控制器
+ */
+- (void)showSplashInWindow:(nonnull UIWindow *)window
+        rootViewController:(nonnull UIViewController *)rootViewController;
+/**
  移除开屏广告（默认会自动移除，异常时可以自行调该方法手动移除）
  */
 - (void)removeSplash;
