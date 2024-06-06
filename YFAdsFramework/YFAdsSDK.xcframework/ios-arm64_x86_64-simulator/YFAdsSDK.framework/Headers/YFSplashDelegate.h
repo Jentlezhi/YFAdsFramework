@@ -50,6 +50,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)adsDidClosed:(YFSplashManager *)manager;
 /**
+ 广告落地页关闭
+ */
+- (void)adsDetailDidClosed:(YFSplashManager *)manager;
+/**
  广告倒计时结束回调
  */
 - (void)splashCountdownToZero:(YFSplashManager *)manager;
