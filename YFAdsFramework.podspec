@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YFAdsFramework'
-  s.version          = '1.6.3'
+  s.version          = '1.6.4'
   s.summary          = 'A ads collection of iOS.'
   s.homepage         = 'https://github.com/Jentlezhi'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
