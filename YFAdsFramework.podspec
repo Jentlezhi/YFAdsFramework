@@ -31,8 +31,7 @@ Pod::Spec.new do |s|
   end
   #穿山甲
   s.subspec 'YFCSJSDK' do |ss|
-     ss.dependency 'Ads-CN','5.9.1.6'
-     ss.dependency 'GDTMobSDK','4.14.76'
+     ss.dependency 'Ads-CN','6.1.2.8'
   end
 end
 
