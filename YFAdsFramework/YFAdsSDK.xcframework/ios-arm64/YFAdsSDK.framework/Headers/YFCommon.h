@@ -5,7 +5,9 @@
 //  Created by Jentle-Zhi on 2024/4/7.
 //
 ///广告提供商类型
-typedef NS_ENUM(NSUInteger, YFSupplierType) {
+typedef NS_ENUM(NSInteger, YFSupplierType) {
+    ///未知
+    YFSupplierTypeUnknown = -1,
     ///百青藤
     YFSupplierTypeBQT,
     ///快手

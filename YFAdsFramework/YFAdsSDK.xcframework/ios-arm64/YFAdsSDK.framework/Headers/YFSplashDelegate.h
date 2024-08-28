@@ -12,47 +12,60 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol YFSplashDelegate <NSObject>
+@required
+/**
+ 广告数据加载成功
+ */
+- (void)yf_splashAdDidLoadSuccess:(YFSplashManager *)manager;
 @optional
 /**
  开屏广告开始请求
  */
-- (void)adsBeginLoad:(YFSplashManager *)manager;
-/**
- 广告数据加载成功
- */
-- (void)adsDidLoadSuccess:(YFSplashManager *)manager;
+- (void)yf_splashAdBeginLoad:(YFSplashManager *)manager;
 /**
  广告数据加载失败
  */
-- (void)adsDidLoadFail:(YFSplashManager *)manager;
+- (void)yf_splashAdDidLoadFail:(YFSplashManager *)manager error:(NSError *)error;
 /**
  广告将要展示
  */
-- (void)adsWillShow:(YFSplashManager *)manager;
+- (void)yf_splashAdWillShow:(YFSplashManager *)manager;
 /**
  广告点击
  */
-- (void)adsDidClicked:(YFSplashManager *)manager;
+- (void)yf_splashAdDidClicked:(YFSplashManager *)manager;
 /**
  广告曝光成功
  */
-- (void)adsDidExposuredSuccess:(YFSplashManager *)manager;
+- (void)yf_splashAdDidExposuredSuccess:(YFSplashManager *)manager;
 /**
- 广告曝光失败(仅穿山甲和优量汇有此回调)
+ 广告曝光失败，快手无此回调
  */
-- (void)adsDidExposuredFail:(YFSplashManager *)manager;
+- (void)yf_splashAdDidExposuredFail:(YFSplashManager *)manager error:(nullable NSError *)error;
 /**
  跳过按钮被点击
  */
-- (void)splashSkipButtonDidClicked:(YFSplashManager *)manager;
+- (void)yf_splashAdSkipButtonDidClicked:(YFSplashManager *)manager;
 /**
  广告关闭
  */
-- (void)adsDidClosed:(YFSplashManager *)manager;
+- (void)yf_splashAdDidClosed:(YFSplashManager *)manager;
+/**
+ 广告落地页关闭
+ */
+- (void)yf_splashAdDetailDidClosed:(YFSplashManager *)manager;
 /**
  广告倒计时结束回调
  */
-- (void)splashCountdownToZero:(YFSplashManager *)manager;
+- (void)yf_splashAdCountdownToZero:(YFSplashManager *)manager;
+/**
+ 广告数据加载失败回调（平台的失败回调）
+ */
+- (void)yf_splashAdPlatformDidLoadFail:(YFSplashManager *)manager error:(NSError *)error;
+/**
+ 广告结束
+ */
+- (void)yf_splashAdDidFinished:(YFSplashManager *)manager error:(nullable NSError *)error;
 
 @end
 

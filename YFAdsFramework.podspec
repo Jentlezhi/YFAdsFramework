@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'YFAdsFramework'
-  s.version          = '1.7.2'
+  s.version          = '1.6.8'
   s.summary          = 'A ads collection of iOS.'
   s.homepage         = 'https://github.com/Jentlezhi'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -17,22 +17,23 @@ Pod::Spec.new do |s|
   #百青藤
   s.subspec 'YFBDSDK' do |ss|
     ss.dependency 'YFAdsFramework/Core'
-    ss.dependency 'BaiduMobAdSDK','5.35'
+    ss.dependency 'BaiduMobAdSDK','5.352'
   end
   #快手
   s.subspec 'YFKSSDK' do |ss|
     ss.dependency 'YFAdsFramework/Core'
-    ss.dependency 'KSAdSDK','3.3.61'
+    ss.dependency 'KSAdSDK','3.3.65'
   end
   #优量汇
   s.subspec 'YFYLHSDK' do |ss|
     ss.dependency 'YFAdsFramework/Core'
-    ss.dependency 'GDTMobSDK','4.14.76'
+    ss.dependency 'GDTMobSDK','4.14.80'
   end
   #穿山甲
   s.subspec 'YFCSJSDK' do |ss|
-     ss.dependency 'Ads-CN','5.9.1.6'
-     ss.dependency 'GDTMobSDK','4.14.76'
+     ss.dependency 'YFAdsFramework/Core'
+     ss.dependency 'Ads-Fusion-CN-Beta/BUAdSDK','6.1.2.8'
+     ss.dependency 'Ads-Fusion-CN-Beta/CSJMediation','6.1.2.8'
   end
 end
 
