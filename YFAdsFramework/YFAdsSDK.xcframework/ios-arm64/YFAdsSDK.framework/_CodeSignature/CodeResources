@@ -10,11 +10,31 @@
 		</data>
 		<key>Headers/YFAdsSDK.h</key>
 		<data>
-		ro5SdyswTSq47PXMBwlt+m8t3hA=
+		3lZMt1tdaNqz5Wimel0k7YAhX/I=
 		</data>
 		<key>Headers/YFCommon.h</key>
 		<data>
 		0iaKyxIEV3ZJggEyIivRfwpjhoE=
+		</data>
+		<key>Headers/YFNativeRenderConfig.h</key>
+		<data>
+		87q3EJYj+8VADUX8eWtOVe9Ipsw=
+		</data>
+		<key>Headers/YFNativeRenderDelegate.h</key>
+		<data>
+		J0FpyBvHo6eACpO6HIh5zORWnvc=
+		</data>
+		<key>Headers/YFNativeRenderManager.h</key>
+		<data>
+		EibhGhHjv8tIiCso4H2V+LchGt8=
+		</data>
+		<key>Headers/YFNativeRenderObject.h</key>
+		<data>
+		iNf7iTQHpjoNS0Xcxx4nkxRGhng=
+		</data>
+		<key>Headers/YFNativeRenderView.h</key>
+		<data>
+		/A5Z4qkON/h4+IhE2avMd+KF7ig=
 		</data>
 		<key>Headers/YFSplashConfig.h</key>
 		<data>
@@ -30,11 +50,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xxsZXqXNckMQBDJOBW3lXbZ1wXQ=
+		UEcH5lxQiJ3yGHbKnxSGBRElPUc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		VFWxfi2UuvP4j5uili+L0hHKmag=
+		2gM0jsasEUc2B+aqFbK0XEnNvCo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -54,11 +74,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ro5SdyswTSq47PXMBwlt+m8t3hA=
+			3lZMt1tdaNqz5Wimel0k7YAhX/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			wf4nxDJFxYb1FeUCJhzVVZ8iC86wRoOmdf7lN5jRZmg=
+			dVDxzLm2Xt6QpDX/U5H3ExsMo8n4wyQVHFaeW3NSwwY=
 			</data>
 		</dict>
 		<key>Headers/YFCommon.h</key>
@@ -70,6 +90,61 @@
 			<key>hash2</key>
 			<data>
 			r31uhGPkbCLkWdncG1cxK7iqWumC/Ugoh0g8KK01PPw=
+			</data>
+		</dict>
+		<key>Headers/YFNativeRenderConfig.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			87q3EJYj+8VADUX8eWtOVe9Ipsw=
+			</data>
+			<key>hash2</key>
+			<data>
+			GmAeCN4FOnojepZKHrznT/Rx1Smd8bDP0rKZyklhGuc=
+			</data>
+		</dict>
+		<key>Headers/YFNativeRenderDelegate.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			J0FpyBvHo6eACpO6HIh5zORWnvc=
+			</data>
+			<key>hash2</key>
+			<data>
+			j3FBNMGujX/YdAmJ+Xz1LhLMphRPfi59RGxXs2bbePs=
+			</data>
+		</dict>
+		<key>Headers/YFNativeRenderManager.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EibhGhHjv8tIiCso4H2V+LchGt8=
+			</data>
+			<key>hash2</key>
+			<data>
+			LxGhv2Ut64p8fypFD4wKIUQo9N2R2D+a6uggJtLGDvo=
+			</data>
+		</dict>
+		<key>Headers/YFNativeRenderObject.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			iNf7iTQHpjoNS0Xcxx4nkxRGhng=
+			</data>
+			<key>hash2</key>
+			<data>
+			YIVpcnupzEcZ6MjWQ9GA5xeUCejkPDjBDFFD18ZBid8=
+			</data>
+		</dict>
+		<key>Headers/YFNativeRenderView.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/A5Z4qkON/h4+IhE2avMd+KF7ig=
+			</data>
+			<key>hash2</key>
+			<data>
+			Zik6ZsLjdVKW/mh2whN3ylBzfP+80iRhsZiwRiMOCug=
 			</data>
 		</dict>
 		<key>Headers/YFSplashConfig.h</key>
@@ -109,11 +184,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			VFWxfi2UuvP4j5uili+L0hHKmag=
+			2gM0jsasEUc2B+aqFbK0XEnNvCo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Nvrm9FxAwCAdhM0DXIZIPIIQfQNSWbsmAHatNzCCuj8=
+			HVtnTIj4B7CLAjGTSzAZQz2VA+3aS6FvBKz8xex/eYI=
 			</data>
 		</dict>
 	</dict>
