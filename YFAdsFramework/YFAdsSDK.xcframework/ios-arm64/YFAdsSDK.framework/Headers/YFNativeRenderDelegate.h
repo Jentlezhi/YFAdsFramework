@@ -32,11 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  广告数据加载失败回调（平台的失败回调）
  */
-- (void)yf_splashAdPlatformDidLoadFail:(YFNativeRenderManager *)nativeRenderManager error:(NSError *)error;
-/**
- 广告结束回调(广告失败)
- */
-- (void)yf_splashAdDidFinished:(YFNativeRenderManager *)manager error:(NSError *)error;
+- (void)yf_nativeAdPlatformDidLoadFail:(YFNativeRenderManager *)nativeRenderManager error:(NSError *)error;
 @end
 
 ///===========================================================
