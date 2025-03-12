@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
   s.name             = 'YFAdsFramework'
-  s.version          = '1.9.5'
+  s.version          = '1.9.6'
   s.summary          = 'A ads collection of iOS.'
   s.homepage         = 'https://github.com/Jentlezhi'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jentle' => 'juntaozhi@163.com' }
   s.source           = { :git => 'https://github.com/Jentlezhi/YFAdsFramework.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   #公共
   s.subspec 'Core' do |ss|
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   #快手
   s.subspec 'YFKSSDK' do |ss|
     ss.dependency 'YFAdsFramework/Core'
-    ss.dependency 'KSAdSDK','3.3.65'
+    ss.dependency 'KSAdSDK','3.3.72'
   end
   #优量汇
   s.subspec 'YFYLHSDK' do |ss|
@@ -32,8 +32,8 @@ Pod::Spec.new do |s|
   #穿山甲
   s.subspec 'YFCSJSDK' do |ss|
      ss.dependency 'YFAdsFramework/Core'
-     ss.dependency 'Ads-Fusion-CN-Beta/BUAdSDK','6.1.2.8'
-     ss.dependency 'Ads-Fusion-CN-Beta/CSJMediation','6.1.2.8'
+     ss.dependency 'Ads-Fusion-CN-Beta/BUAdSDK','6.6.1.5'
+     ss.dependency 'Ads-Fusion-CN-Beta/CSJMediation','6.6.1.5'
   end
 end
 
