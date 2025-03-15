@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Jentle' => 'juntaozhi@163.com' }
   s.source           = { :git => 'https://github.com/Jentlezhi/YFAdsFramework.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '11.0'
+  s.ios.deployment_target = '12.0'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
   #公共
   s.subspec 'Core' do |ss|
